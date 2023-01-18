@@ -1,0 +1,2 @@
+# Predicting-the-Number-of-Affairs-using-Multinomial-Logit
+the "Predicting the Number of Affairs using Multinomial Logistic Regression" project is a study that aims to model and predict the number of affairs a person has based on various independent variables. The project utilizes multinomial logistic regression, a statistical method that is used to model a multiclass categorical dependent variable.
