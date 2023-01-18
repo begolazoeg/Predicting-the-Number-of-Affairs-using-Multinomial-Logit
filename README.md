@@ -10,10 +10,10 @@ The project status is in progress!
 ## Dataset and libraries used
 The data set used in this project is a simulated data set from the statsmodels library, which contains information about a sample of individuals such as their marriage rating, age, years married, number of children, religiousness, and education level.
 
-##Specific goal
+## Specific goal
 The goal of the project is to use this information to build a model that can predict the number of affairs a person is likely to have based on the independent variables. The independent variables are chosen based on their potential to affect the number of affairs, and the model is trained using these variables and the dependent variable (number of affairs).
 
-##Steps
+## Steps
 1. Data acquisition: The first step is to acquire the data that will be used in the project. In this case, the data is a simulated data set from the statsmodels library, which contains information about a sample of individuals such as their marriage rating, age, years married, number of children, religiousness, and education level.
 
 2. Data preprocessing: The next step is to preprocess the data. This step typically includes cleaning and transforming the data, handling missing values, and creating new features if necessary.
