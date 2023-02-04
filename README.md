@@ -27,16 +27,16 @@ The specific goal of this project is to develop a predictive model using Multino
 ## Results
 ![alt text](https://github.com/begolazoeg/Predicting-the-Number-of-Affairs-using-Multinomial-Logit/blob/main/Images/reuslt%20modelo%20base.PNG?raw=true)
 
-En este modelo se toman en cuenta como variables independientes a 'rate_amrriage', 'age', 'yrs_married', 'children', 'religious', 'educ'. Cada categoría de la variable dependiente 'affairs' tiene una sección de resultados.
+In this model, 'rate_amrriage', 'age', 'yrs_married', 'children', 'religious', 'educ' are taken into account as independent variables. Each category of the dependent variable 'affairs' has an outcome section.
 
 # Rate marriage
-Es posible ver que 'rate_marriage' es un factor negativo significante para todas las categorías de 'affairs'. Esto indica que a medida que aumenta la calificación de la felicidad en el matrimonio, disminuye la probabilidad de tener aventuras extramatrimoniales. Esto indica que las personas que están más satisfechas con su matrimonio tienen menos probabilidades de buscar satisfacción emocional o sexual fuera de su matrimonio. Sin embargo, es importante tener en cuenta que esta relación puede ser bidireccional, es decir, que también es posible que las personas que tienen aventuras extramatrimoniales estén insatisfechas con su matrimonio y que esto esté afectando su calificación de felicidad en el matrimonio.
+It is possible to see that 'rate_marriage' is a significant negative factor for all categories of 'affairs'. This indicates that as the rating of happiness in marriage increases, the likelihood of having extramarital affairs decreases. This indicates that people who are more satisfied with their marriage are less likely to seek emotional or sexual satisfaction outside of their marriage. However, it is important to keep in mind that this relationship may be bidirectional, i.e., it is also possible that people who have extramarital affairs are dissatisfied with their marriage and that this is affecting their happiness rating in marriage.
 
 # Age
-En cuanto a la variable 'age' vemos que su coeficiente es negativo y significante para la categoría 3 de 'affairs'. Lo cual significa que por cada unidad de incremento de la edad, la probabilidad de tener 3 'affairs' disminuye 0.1124.
+Regarding the variable 'age' we see that its coefficient is negative and significant for category 3 of 'affairs'. This means that for each unit increase in age, the probability of having 3 affairs decreases by 0.1124.
 
 # Children and Years married
-Sobre los factores 'children' y 'yrs_married', sus coeficientes no serán tomados en cuenta ya que carecen de significación estadísitca por no tener un valor-p significativo.
+Regarding the factors 'children' and 'yrs_married', their coefficients will not be taken into account since they lack statistical significance because they do not have a significant p-value.
 
 # Religiousness
-Esta variable aparece como significativa en todas las categorías de 'affairs' y todos sus coeficientes son negativos. Es decir que a mayor religiosidad, disminuye la probabilidad de tener 'affairs'. Este efecto negativo es más fuerte en la categoría 1 de 'affairs', lo cual podría sugerir que una fuerte religiosidad funciona como un mecanismo de prevneción a la aventuras extramaritales (en este dataset). 
+This variable appears as significant in all the 'affairs' categories and all its coefficients are negative. That is, the higher the religiosity, the lower the probability of having affairs. This negative effect is stronger in category 1 of 'affairs', which could suggest that a stronger religiosity functions as a prevention mechanism for extramarital affairs (in this dataset). 
